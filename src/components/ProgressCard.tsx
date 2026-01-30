@@ -61,7 +61,7 @@ const ProgressCard = ({
           value={percentage} 
           className={cn(
             "h-3 bg-secondary/50",
-            isActive && "[&>div]:bg-gradient-to-r [&>div]:from-sage-500 [&>div]:via-forest-500 [&>div]:to-stone-500"
+            isActive && "[&>div]:bg-gradient-to-r [&>div]:from-lime-500 [&>div]:via-yellow-500 [&>div]:to-chartreuse-500"
           )}
         />
         {isActive && (
@@ -77,7 +77,7 @@ const ProgressCard = ({
         <div className="flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">
             {isActive ? (
-              <Loader2 className="w-4 h-4 animate-spin text-forest-400" />
+              <Loader2 className="w-4 h-4 animate-spin text-lime-400" />
             ) : status === 'completed' ? (
               <Check className="w-4 h-4 text-green-500" />
             ) : (

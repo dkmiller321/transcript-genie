@@ -147,7 +147,7 @@ const TranscriptViewer = ({ segments, videoId }: TranscriptViewerProps) => {
                   onClick={() => handleTimestampClick(segment.start)}
                   className={cn(
                     "flex-shrink-0 font-mono text-xs px-2 py-1 rounded-md transition-colors",
-                    "text-forest-400 hover:text-forest-300 hover:bg-forest-500/10",
+                    "text-lime-400 hover:text-lime-300 hover:bg-lime-500/10",
                     videoId && "cursor-pointer"
                   )}
                 >
