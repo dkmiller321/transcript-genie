@@ -98,14 +98,14 @@ const Pricing = () => {
                 key={plan.name}
                 className={cn(
                   "p-8 relative overflow-hidden transition-all duration-300",
-                  plan.popular && "border-purple-500/50 glow-purple scale-105 z-10"
+                  plan.popular && "border-forest-500/50 glow-forest scale-105 z-10"
                 )}
                 hover={!plan.popular}
               >
                 {/* Popular badge */}
                 {plan.popular && (
                   <div className="absolute top-0 right-0">
-                    <div className="bg-gradient-to-r from-purple-500 to-cyan-500 text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl">
+                    <div className="bg-gradient-to-r from-sage-500 to-forest-500 text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl">
                       MOST POPULAR
                     </div>
                   </div>
@@ -223,7 +223,7 @@ const Pricing = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="p-1.5 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500">
+              <div className="p-1.5 rounded-lg bg-gradient-to-r from-sage-500 to-forest-500">
                 <Zap className="w-4 h-4 text-white" />
               </div>
               <span className="font-semibold gradient-text">TranscriptFlow</span>

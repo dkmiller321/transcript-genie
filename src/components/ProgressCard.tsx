@@ -77,7 +77,7 @@ const ProgressCard = ({
         <div className="flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">
             {isActive ? (
-              <Loader2 className="w-4 h-4 animate-spin text-blue-400" />
+              <Loader2 className="w-4 h-4 animate-spin text-forest-400" />
             ) : status === 'completed' ? (
               <Check className="w-4 h-4 text-green-500" />
             ) : (
