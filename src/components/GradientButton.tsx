@@ -15,7 +15,7 @@ const GradientButton = forwardRef<HTMLButtonElement, GradientButtonProps>(
     const variants = {
       primary: "gradient-primary text-white hover:shadow-glow-lg hover:scale-[1.02] active:scale-[0.98]",
       secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:shadow-lg",
-      outline: "border-2 border-goldenrod-500/50 text-foreground hover:border-goldenrod-500 hover:bg-goldenrod-500/10 hover:shadow-glow",
+      outline: "border-2 border-forest-500/50 text-foreground hover:border-forest-500 hover:bg-forest-500/10 hover:shadow-glow",
     };
     
     const sizes = {
