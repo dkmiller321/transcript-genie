@@ -61,7 +61,7 @@ const ProgressCard = ({
           value={percentage} 
           className={cn(
             "h-3 bg-secondary/50",
-            isActive && "[&>div]:bg-gradient-to-r [&>div]:from-purple-500 [&>div]:via-blue-500 [&>div]:to-cyan-500"
+            isActive && "[&>div]:bg-gradient-to-r [&>div]:from-violet-500 [&>div]:via-lavender-500 [&>div]:to-olive-500"
           )}
         />
         {isActive && (
