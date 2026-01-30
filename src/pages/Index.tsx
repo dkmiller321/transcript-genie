@@ -274,8 +274,8 @@ const Index = () => {
                 <GlassCard className="p-6 cursor-pointer" hover>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4">
-                      <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500/20 to-cyan-500/20">
-                        <Users className="w-6 h-6 text-purple-400" />
+                      <div className="p-3 rounded-xl bg-gradient-to-br from-sage-500/20 to-forest-500/20">
+                        <Users className="w-6 h-6 text-forest-400" />
                       </div>
                       <div className="text-left">
                         <h3 className="font-semibold text-foreground">Channel Batch Extraction</h3>
@@ -372,8 +372,8 @@ const Index = () => {
                 hover 
                 glow
               >
-                <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-purple-500/20 to-cyan-500/20 mb-4">
-                  <feature.icon className="w-6 h-6 text-purple-400" />
+                <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-sage-500/20 to-forest-500/20 mb-4">
+                  <feature.icon className="w-6 h-6 text-forest-400" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground">{feature.description}</p>
@@ -410,7 +410,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="p-1.5 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500">
+              <div className="p-1.5 rounded-lg bg-gradient-to-r from-sage-500 to-forest-500">
                 <Zap className="w-4 h-4 text-white" />
               </div>
               <span className="font-semibold gradient-text">TranscriptFlow</span>
