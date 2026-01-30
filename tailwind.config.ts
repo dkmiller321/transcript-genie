@@ -61,26 +61,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Lavender Fields Gradient colors
-        cream: {
-          400: "hsl(57 89% 95%)",
-          500: "hsl(57 89% 91%)",
-          600: "hsl(57 89% 85%)",
+        // Autumn Orchard Gradient colors
+        plum: {
+          400: "hsl(305 35% 50%)",
+          500: "hsl(305 35% 40%)",
+          600: "hsl(305 35% 30%)",
         },
-        olive: {
-          400: "hsl(57 34% 68%)",
-          500: "hsl(57 34% 58%)",
-          600: "hsl(57 34% 48%)",
+        goldenrod: {
+          400: "hsl(43 74% 59%)",
+          500: "hsl(43 74% 49%)",
+          600: "hsl(43 74% 39%)",
         },
-        lavender: {
-          400: "hsl(242 100% 91%)",
-          500: "hsl(242 100% 87%)",
-          600: "hsl(242 100% 80%)",
+        forest: {
+          400: "hsl(140 41% 41%)",
+          500: "hsl(140 41% 31%)",
+          600: "hsl(140 41% 21%)",
         },
-        violet: {
-          400: "hsl(284 96% 78%)",
-          500: "hsl(284 96% 71%)",
-          600: "hsl(284 96% 60%)",
+        burgundy: {
+          400: "hsl(330 100% 30%)",
+          500: "hsl(330 100% 20%)",
+          600: "hsl(330 100% 15%)",
         },
       },
       borderRadius: {
@@ -91,9 +91,9 @@ export default {
         "2xl": "calc(var(--radius) + 8px)",
       },
       boxShadow: {
-        glow: "0 0 40px -10px hsl(284 96% 71% / 0.5)",
-        "glow-lg": "0 0 60px -15px hsl(284 96% 71% / 0.6)",
-        "glow-multi": "0 0 60px -15px hsl(284 96% 71% / 0.4), 0 0 40px -10px hsl(242 100% 87% / 0.3), 0 0 30px -5px hsl(57 34% 58% / 0.2)",
+        glow: "0 0 40px -10px hsl(43 74% 49% / 0.5)",
+        "glow-lg": "0 0 60px -15px hsl(43 74% 49% / 0.6)",
+        "glow-multi": "0 0 60px -15px hsl(305 35% 40% / 0.4), 0 0 40px -10px hsl(43 74% 49% / 0.3), 0 0 30px -5px hsl(140 41% 31% / 0.2)",
       },
       keyframes: {
         "accordion-down": {
@@ -137,8 +137,8 @@ export default {
           "75%": { borderRadius: "60% 40% 60% 30% / 70% 30% 50% 60%" },
         },
         "pulse-glow": {
-          "0%, 100%": { opacity: "1", boxShadow: "0 0 20px hsl(284 96% 71% / 0.4)" },
-          "50%": { opacity: "0.8", boxShadow: "0 0 40px hsl(284 96% 71% / 0.6)" },
+          "0%, 100%": { opacity: "1", boxShadow: "0 0 20px hsl(43 74% 49% / 0.4)" },
+          "50%": { opacity: "0.8", boxShadow: "0 0 40px hsl(43 74% 49% / 0.6)" },
         },
         "gradient-shift": {
           "0%, 100%": { backgroundPosition: "0% 50%" },
