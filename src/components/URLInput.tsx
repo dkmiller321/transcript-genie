@@ -103,7 +103,7 @@ const URLInput = forwardRef<HTMLInputElement, URLInputProps>(
       >
         {/* Gradient border on focus/drag */}
         <div className={cn(
-          "absolute -inset-[2px] rounded-2xl bg-gradient-to-r from-sage-500 via-forest-500 to-stone-500 opacity-0 transition-opacity duration-300 blur-sm",
+          "absolute -inset-[2px] rounded-2xl bg-gradient-to-r from-lime-500 via-yellow-500 to-chartreuse-500 opacity-0 transition-opacity duration-300 blur-sm",
           isDragging && "opacity-100",
           "group-focus-within:opacity-75"
         )} />
@@ -111,8 +111,8 @@ const URLInput = forwardRef<HTMLInputElement, URLInputProps>(
         <div className={cn(
           "relative flex items-center gap-3 px-5 py-4 rounded-2xl transition-all duration-300",
           "bg-card/80 backdrop-blur-xl border border-white/10",
-          isDragging && "border-forest-500/50 bg-forest-500/5",
-          "focus-within:border-forest-500/30"
+          isDragging && "border-lime-500/50 bg-lime-500/5",
+          "focus-within:border-lime-500/30"
         )}>
           <Link2 className="w-5 h-5 text-muted-foreground flex-shrink-0" />
           
@@ -137,8 +137,8 @@ const URLInput = forwardRef<HTMLInputElement, URLInputProps>(
         
         {/* Drag overlay hint */}
         {isDragging && (
-          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-forest-500/10 border-2 border-dashed border-forest-500/50">
-            <span className="text-forest-400 font-medium">Drop URL here</span>
+          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-lime-500/10 border-2 border-dashed border-lime-500/50">
+            <span className="text-lime-400 font-medium">Drop URL here</span>
           </div>
         )}
       </div>
