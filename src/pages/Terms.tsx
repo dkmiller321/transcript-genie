@@ -85,8 +85,8 @@ const Terms = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="p-1.5 rounded-lg bg-gradient-to-r from-lime-500 to-yellow-500">
-                <Zap className="w-4 h-4 text-kiwi-500" />
+              <div className="p-1.5 rounded-lg bg-gradient-to-r from-cyan-500 to-teal-500">
+                <Zap className="w-4 h-4 text-slate-900" />
               </div>
               <span className="font-semibold gradient-text">TranscriptFlow</span>
             </div>

@@ -23,6 +23,7 @@ import {
   ChevronDown,
   Users
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 // Mock data for demo
 const MOCK_VIDEO: VideoData = {
@@ -274,8 +275,8 @@ const Index = () => {
                 <GlassCard className="p-6 cursor-pointer" hover>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4">
-                      <div className="p-3 rounded-xl bg-gradient-to-br from-lime-500/20 to-yellow-500/20">
-                        <Users className="w-6 h-6 text-lime-400" />
+                      <div className="p-3 rounded-xl bg-gradient-to-br from-cyan-500/20 to-teal-500/20">
+                        <Users className="w-6 h-6 text-cyan-400" />
                       </div>
                       <div className="text-left">
                         <h3 className="font-semibold text-foreground">Channel Batch Extraction</h3>
@@ -372,8 +373,8 @@ const Index = () => {
                 hover 
                 glow
               >
-                <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-lime-500/20 to-yellow-500/20 mb-4">
-                  <feature.icon className="w-6 h-6 text-lime-400" />
+                <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-teal-500/20 mb-4">
+                  <feature.icon className="w-6 h-6 text-cyan-400" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground">{feature.description}</p>
@@ -397,9 +398,11 @@ const Index = () => {
               <GradientButton size="lg">
                 Get Pro - $9.99/mo
               </GradientButton>
-              <GradientButton size="lg" variant="outline">
-                View Pricing
-              </GradientButton>
+              <Link to="/pricing">
+                <GradientButton size="lg" variant="outline">
+                  View Pricing
+                </GradientButton>
+              </Link>
             </div>
           </GlassCard>
         </section>
@@ -410,14 +413,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="p-1.5 rounded-lg bg-gradient-to-r from-lime-500 to-yellow-500">
-                <Zap className="w-4 h-4 text-kiwi-500" />
+              <div className="p-1.5 rounded-lg bg-gradient-to-r from-cyan-500 to-teal-500">
+                <Zap className="w-4 h-4 text-slate-900" />
               </div>
               <span className="font-semibold gradient-text">TranscriptFlow</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <a href="/terms" className="hover:text-foreground transition-colors">Terms</a>
-              <a href="/privacy" className="hover:text-foreground transition-colors">Privacy</a>
+              <Link to="/terms" className="hover:text-foreground transition-colors">Terms</Link>
+              <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
               <span>© 2024 TranscriptFlow</span>
             </div>
           </div>

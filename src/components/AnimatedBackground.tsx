@@ -4,21 +4,21 @@ const AnimatedBackground = () => {
       {/* Base gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-background" />
       
-      {/* Animated gradient blobs - Electric Kiwi palette */}
+      {/* Animated gradient blobs - Slate & Cyan palette */}
       <div 
-        className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 rounded-full bg-lime-500/15 blur-[120px] animate-float animate-morph"
+        className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 rounded-full bg-cyan-500/15 blur-[120px] animate-float animate-morph"
         style={{ animationDelay: '0s' }}
       />
       <div 
-        className="absolute top-1/4 -right-1/4 w-2/5 h-2/5 rounded-full bg-yellow-500/20 blur-[100px] animate-float-delayed animate-morph"
+        className="absolute top-1/4 -right-1/4 w-2/5 h-2/5 rounded-full bg-teal-500/20 blur-[100px] animate-float-delayed animate-morph"
         style={{ animationDelay: '5s' }}
       />
       <div 
-        className="absolute -bottom-1/4 left-1/4 w-1/3 h-1/3 rounded-full bg-chartreuse-500/15 blur-[100px] animate-float-slow animate-morph"
+        className="absolute -bottom-1/4 left-1/4 w-1/3 h-1/3 rounded-full bg-sky-500/15 blur-[100px] animate-float-slow animate-morph"
         style={{ animationDelay: '10s' }}
       />
       <div 
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/3 rounded-full bg-lime-400/10 blur-[80px] animate-float"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/3 rounded-full bg-cyan-400/10 blur-[80px] animate-float"
         style={{ animationDelay: '3s' }}
       />
       

@@ -61,26 +61,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Electric Kiwi palette
-        lime: {
-          400: "hsl(72 100% 60%)",
-          500: "hsl(72 100% 50%)",
-          600: "hsl(72 100% 40%)",
+        // Slate & Cyan palette
+        cyan: {
+          400: "hsl(187 85% 58%)",
+          500: "hsl(187 85% 53%)",
+          600: "hsl(187 85% 43%)",
         },
-        yellow: {
-          400: "hsl(60 100% 60%)",
-          500: "hsl(60 100% 50%)",
-          600: "hsl(60 100% 40%)",
+        teal: {
+          400: "hsl(173 80% 50%)",
+          500: "hsl(173 80% 40%)",
+          600: "hsl(173 80% 32%)",
         },
-        chartreuse: {
-          400: "hsl(67 100% 60%)",
-          500: "hsl(67 100% 50%)",
-          600: "hsl(67 100% 40%)",
+        sky: {
+          400: "hsl(199 89% 58%)",
+          500: "hsl(199 89% 48%)",
+          600: "hsl(199 89% 40%)",
         },
-        kiwi: {
-          400: "hsl(0 0% 15%)",
-          500: "hsl(0 0% 0%)",
-          600: "hsl(0 0% 0%)",
+        slate: {
+          800: "hsl(222 40% 14%)",
+          900: "hsl(222 47% 8%)",
+          950: "hsl(222 47% 6%)",
         },
       },
       borderRadius: {
@@ -91,9 +91,9 @@ export default {
         "2xl": "calc(var(--radius) + 8px)",
       },
       boxShadow: {
-        glow: "0 0 40px -10px hsl(72 100% 50% / 0.6)",
-        "glow-lg": "0 0 60px -15px hsl(72 100% 50% / 0.7)",
-        "glow-multi": "0 0 60px -15px hsl(72 100% 50% / 0.5), 0 0 40px -10px hsl(60 100% 50% / 0.4), 0 0 30px -5px hsl(67 100% 50% / 0.3)",
+        glow: "0 0 40px -10px hsl(187 85% 53% / 0.5)",
+        "glow-lg": "0 0 60px -15px hsl(187 85% 53% / 0.6)",
+        "glow-multi": "0 0 60px -15px hsl(187 85% 53% / 0.4), 0 0 40px -10px hsl(173 80% 40% / 0.3), 0 0 30px -5px hsl(199 89% 58% / 0.2)",
       },
       keyframes: {
         "accordion-down": {
@@ -137,8 +137,8 @@ export default {
           "75%": { borderRadius: "60% 40% 60% 30% / 70% 30% 50% 60%" },
         },
         "pulse-glow": {
-          "0%, 100%": { opacity: "1", boxShadow: "0 0 20px hsl(72 100% 50% / 0.5)" },
-          "50%": { opacity: "0.8", boxShadow: "0 0 40px hsl(72 100% 50% / 0.7)" },
+          "0%, 100%": { opacity: "1", boxShadow: "0 0 20px hsl(187 85% 53% / 0.4)" },
+          "50%": { opacity: "0.8", boxShadow: "0 0 40px hsl(187 85% 53% / 0.6)" },
         },
         "gradient-shift": {
           "0%, 100%": { backgroundPosition: "0% 50%" },
