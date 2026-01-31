@@ -61,7 +61,7 @@ const TranscriptViewer = ({ segments, videoId }: TranscriptViewerProps) => {
     return (
       <>
         {text.slice(0, index)}
-        <mark className="bg-yellow-500/30 text-foreground rounded px-0.5">
+        <mark className="bg-cyan-500/30 text-foreground rounded px-0.5">
           {text.slice(index, index + searchQuery.length)}
         </mark>
         {text.slice(index + searchQuery.length)}
@@ -147,7 +147,7 @@ const TranscriptViewer = ({ segments, videoId }: TranscriptViewerProps) => {
                   onClick={() => handleTimestampClick(segment.start)}
                   className={cn(
                     "flex-shrink-0 font-mono text-xs px-2 py-1 rounded-md transition-colors",
-                    "text-lime-400 hover:text-lime-300 hover:bg-lime-500/10",
+                    "text-cyan-400 hover:text-cyan-300 hover:bg-cyan-500/10",
                     videoId && "cursor-pointer"
                   )}
                 >

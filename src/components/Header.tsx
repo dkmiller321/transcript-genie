@@ -22,9 +22,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-lime-500 to-yellow-500 rounded-lg blur-md opacity-50 group-hover:opacity-75 transition-opacity" />
-              <div className="relative bg-gradient-to-r from-lime-500 to-yellow-500 p-2 rounded-lg">
-                <Zap className="w-5 h-5 text-kiwi-500" />
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-lg blur-md opacity-50 group-hover:opacity-75 transition-opacity" />
+              <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 p-2 rounded-lg">
+                <Zap className="w-5 h-5 text-slate-900" />
               </div>
             </div>
             <span className="text-xl font-bold gradient-text">TranscriptFlow</span>
@@ -54,7 +54,7 @@ const Header = () => {
             <Link to="/pricing">
               <Button 
                 variant="outline" 
-                className="rounded-full border-lime-500/30 hover:border-lime-500/60 hover:bg-lime-500/10"
+                className="rounded-full border-cyan-500/30 hover:border-cyan-500/60 hover:bg-cyan-500/10"
               >
                 Get Pro
               </Button>

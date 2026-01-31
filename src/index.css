@@ -4,110 +4,109 @@
 @tailwind components;
 @tailwind utilities;
 
-/* TranscriptFlow Design System - Electric Kiwi Theme */
+/* TranscriptFlow Design System - Slate & Cyan Theme */
+/* Professional, modern palette optimized for reading text content */
 
 @layer base {
   :root {
-    /* Light mode */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 5%;
+    /* Light mode - Clean and professional */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
 
-    --card: 0 0% 98%;
-    --card-foreground: 0 0% 5%;
+    --card: 210 20% 100%;
+    --card-foreground: 215 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 5%;
+    --popover: 210 20% 100%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 72 100% 50%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 187 85% 43%;
+    --primary-foreground: 210 20% 98%;
 
-    --secondary: 60 20% 95%;
-    --secondary-foreground: 0 0% 10%;
+    --secondary: 210 15% 93%;
+    --secondary-foreground: 215 25% 25%;
 
-    --muted: 60 10% 92%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 210 15% 90%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 60 100% 50%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 210 20% 98%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 60 20% 85%;
-    --input: 60 20% 85%;
-    --ring: 72 100% 50%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 187 85% 43%;
 
-    --radius: 1rem;
+    --radius: 0.75rem;
 
-    /* Electric Kiwi gradient stops */
-    --gradient-lime: 72 100% 50%;
-    --gradient-yellow: 60 100% 50%;
-    --gradient-chartreuse: 67 100% 50%;
-    --gradient-black: 0 0% 0%;
+    /* Gradient stops */
+    --gradient-cyan: 187 85% 43%;
+    --gradient-teal: 173 80% 40%;
+    --gradient-sky: 199 89% 48%;
 
     /* Glow effects */
-    --glow-lime: 72 100% 50%;
-    --glow-yellow: 60 100% 50%;
-    --glow-chartreuse: 67 100% 50%;
+    --glow-primary: 187 85% 43%;
+    --glow-accent: 199 89% 48%;
 
     /* Glass effect */
-    --glass-bg: 0 0% 100% / 0.1;
-    --glass-border: 72 100% 50% / 0.2;
+    --glass-bg: 210 20% 100% / 0.8;
+    --glass-border: 187 85% 43% / 0.15;
 
     /* Sidebar */
-    --sidebar-background: 60 10% 97%;
-    --sidebar-foreground: 0 0% 10%;
-    --sidebar-primary: 72 100% 50%;
-    --sidebar-primary-foreground: 0 0% 0%;
-    --sidebar-accent: 60 20% 92%;
-    --sidebar-accent-foreground: 0 0% 10%;
-    --sidebar-border: 60 15% 88%;
-    --sidebar-ring: 72 100% 50%;
+    --sidebar-background: 210 20% 97%;
+    --sidebar-foreground: 215 25% 20%;
+    --sidebar-primary: 187 85% 43%;
+    --sidebar-primary-foreground: 210 20% 98%;
+    --sidebar-accent: 210 15% 93%;
+    --sidebar-accent-foreground: 215 25% 25%;
+    --sidebar-border: 210 15% 88%;
+    --sidebar-ring: 187 85% 43%;
   }
 
   .dark {
-    /* Pure black background for Electric Kiwi */
-    --background: 0 0% 2%;
-    --foreground: 72 100% 50%;
+    /* Dark mode - Deep slate for comfortable reading */
+    --background: 222 47% 8%;
+    --foreground: 210 20% 95%;
 
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 95%;
+    --card: 222 40% 11%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 222 40% 11%;
+    --popover-foreground: 210 20% 95%;
 
-    --primary: 72 100% 50%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 187 85% 53%;
+    --primary-foreground: 222 47% 8%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 72 100% 50%;
+    --secondary: 222 30% 16%;
+    --secondary-foreground: 210 20% 90%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 72 50% 60%;
+    --muted: 222 30% 18%;
+    --muted-foreground: 215 15% 60%;
 
-    --accent: 60 100% 50%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 199 89% 58%;
+    --accent-foreground: 222 47% 8%;
 
     --destructive: 0 62% 50%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 72 100% 50%;
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 187 85% 53%;
 
-    /* Glass effect - dark for Electric Kiwi */
-    --glass-bg: 0 0% 8% / 0.7;
-    --glass-border: 72 100% 50% / 0.2;
+    /* Glass effect - dark */
+    --glass-bg: 222 40% 12% / 0.8;
+    --glass-border: 187 85% 53% / 0.2;
 
     /* Sidebar */
-    --sidebar-background: 0 0% 3%;
-    --sidebar-foreground: 72 100% 50%;
-    --sidebar-primary: 72 100% 50%;
-    --sidebar-primary-foreground: 0 0% 0%;
-    --sidebar-accent: 0 0% 8%;
-    --sidebar-accent-foreground: 72 100% 50%;
-    --sidebar-border: 0 0% 12%;
-    --sidebar-ring: 72 100% 50%;
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 187 85% 53%;
+    --sidebar-primary-foreground: 222 47% 8%;
+    --sidebar-accent: 222 30% 14%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 222 30% 15%;
+    --sidebar-ring: 187 85% 53%;
   }
 }
 
@@ -140,20 +139,20 @@
 @layer utilities {
   /* Gradient text utility */
   .gradient-text {
-    @apply bg-gradient-to-r from-lime-400 via-yellow-400 to-chartreuse-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-cyan-400 via-teal-400 to-sky-400 bg-clip-text text-transparent;
   }
 
   .gradient-text-reverse {
-    @apply bg-gradient-to-l from-lime-400 via-yellow-400 to-chartreuse-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-l from-cyan-400 via-teal-400 to-sky-400 bg-clip-text text-transparent;
   }
 
   /* Gradient backgrounds */
   .gradient-primary {
-    @apply bg-gradient-to-r from-lime-500 via-yellow-500 to-chartreuse-500;
+    @apply bg-gradient-to-r from-cyan-500 via-teal-500 to-sky-500;
   }
 
   .gradient-primary-hover {
-    @apply bg-gradient-to-r from-lime-600 via-yellow-600 to-chartreuse-600;
+    @apply bg-gradient-to-r from-cyan-600 via-teal-600 to-sky-600;
   }
 
   /* Glassmorphism */
@@ -169,24 +168,24 @@
     @apply bg-card/40 backdrop-blur-lg border border-white/5;
   }
 
-  /* Glow effects */
-  .glow-lime {
-    box-shadow: 0 0 40px -10px hsl(72 100% 50% / 0.6);
+  /* Glow effects - Cyan theme */
+  .glow-cyan {
+    box-shadow: 0 0 40px -10px hsl(187 85% 53% / 0.5);
   }
 
-  .glow-yellow {
-    box-shadow: 0 0 40px -10px hsl(60 100% 50% / 0.6);
+  .glow-teal {
+    box-shadow: 0 0 40px -10px hsl(173 80% 40% / 0.5);
   }
 
-  .glow-chartreuse {
-    box-shadow: 0 0 40px -10px hsl(67 100% 50% / 0.6);
+  .glow-sky {
+    box-shadow: 0 0 40px -10px hsl(199 89% 58% / 0.5);
   }
 
   .glow-multi {
     box-shadow: 
-      0 0 60px -15px hsl(72 100% 50% / 0.5),
-      0 0 40px -10px hsl(60 100% 50% / 0.4),
-      0 0 30px -5px hsl(67 100% 50% / 0.3);
+      0 0 60px -15px hsl(187 85% 53% / 0.4),
+      0 0 40px -10px hsl(173 80% 40% / 0.3),
+      0 0 30px -5px hsl(199 89% 58% / 0.2);
   }
 
   /* Hover effects */
@@ -228,9 +227,9 @@
     border-radius: inherit;
     padding: 1px;
     background: linear-gradient(135deg, 
-      hsl(72 100% 50%) 0%, 
-      hsl(60 100% 50%) 50%, 
-      hsl(67 100% 50%) 100%
+      hsl(187 85% 53%) 0%, 
+      hsl(173 80% 40%) 50%, 
+      hsl(199 89% 58%) 100%
     );
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -241,9 +240,9 @@
   /* Progress bar glow animation */
   .progress-glow {
     box-shadow: 
-      0 0 10px hsl(72 100% 50% / 0.6),
-      0 0 20px hsl(60 100% 50% / 0.4),
-      0 0 30px hsl(67 100% 50% / 0.3);
+      0 0 10px hsl(187 85% 53% / 0.5),
+      0 0 20px hsl(173 80% 40% / 0.3),
+      0 0 30px hsl(199 89% 58% / 0.2);
   }
 
   /* Floating animation for blobs */
@@ -330,11 +329,11 @@
 @keyframes pulse-glow {
   0%, 100% {
     opacity: 1;
-    box-shadow: 0 0 20px hsl(72 100% 50% / 0.5);
+    box-shadow: 0 0 20px hsl(187 85% 53% / 0.4);
   }
   50% {
     opacity: 0.8;
-    box-shadow: 0 0 40px hsl(72 100% 50% / 0.7);
+    box-shadow: 0 0 40px hsl(187 85% 53% / 0.6);
   }
 }
 
